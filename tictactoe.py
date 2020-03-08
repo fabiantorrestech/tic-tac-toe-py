@@ -1,12 +1,13 @@
 def print_rules():
     print("Welcome to my TicTacToe Project!\n\n")
+    print("To exit the program while running, press Ctrl+C at any time.\n\n")
     print("RULES:")
-    print("Player 1 is X's. Player 2 is O's\nSimply type a coordinate within parenthesees to choose a spot on the board, like so.\n")
-    print(" (#Row,#Column) \n")
-    print("For example, to choose the top left spot, type (0,0). To choose bottom right, type (2, 2). To choose middle left, (1, 0)\n\n")
+    print("- Player 1 is X's. Player 2 is O's\n- Simply type a coordinate within parenthesees to choose a spot on the board, like so.\n")
+    print("- (#Row,#Column) \n- Rows range from [0,2] (left to right), while columns range from [0,2] (top to bottom).\n")
+    print("- For example, to choose the top left spot, type (0,0). To choose bottom right, type (2, 2). To choose middle left, (1, 0)\n\n")
     print("MODES: ")
     print("1) 2 Player")
-    print("2) vs CPU\n")
+    #print("2) vs CPU\n")
 
 def check_win(grid):
 
@@ -194,8 +195,8 @@ def main():
 
         
 
-    elif(user_option == 2):
-        create_grid(grid)
+    #elif(user_option == 2):
+    #    create_grid(grid)
 
 
 
